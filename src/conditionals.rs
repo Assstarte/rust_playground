@@ -11,7 +11,7 @@ pub fn run() {
         println!("Bartender: I`ll need to see your ID");
     }
 
-    // Shorthand IF
+    // Shorthand IF (Allternate of ternary operator)
     let is_of_age = if age >= 21 {true} else {false};
     println!("Is Of Age: {}", is_of_age);
 }
